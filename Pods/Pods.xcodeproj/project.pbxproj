@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F2F5192E2C49C994168913389DA784E /* Pods-DreamLister-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B555FE41653EDE9E80AC59DF16BE3E08 /* Pods-DreamLister-dummy.m */; };
+		3F490825A92789007617C8F347611900 /* UITextView+Placeholder.h in Headers */ = {isa = PBXBuildFile; fileRef = F10C3ABCE0C119718E13FB727544BD64 /* UITextView+Placeholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		468F0B4DF7ABB02C7A8D97F5275F6C95 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = A003E3056525389FBCAAE2BA9130ADFD /* UITextView+Placeholder.m */; };
+		59C4E37F19FCB63521DD634DB499DAEF /* UITextView+Placeholder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1234D9FEA3A61A68CA80D15E525C0A /* UITextView+Placeholder-dummy.m */; };
+		632801F710A57CB2DB809AC7CACC4B80 /* UITextView+Placeholder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E40F38B106F150EFBEB5F80F319422B /* UITextView+Placeholder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B210EE1EA53042AF6C23F2D5811F368A /* Pods-DreamLister-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B74854EC1AF716B8FD9F5646094E09FD /* Pods-DreamLister-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B899929E1B249C7BEB05A97B135B9EE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E741D0E834F7AC8581F2AF459916DCB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		E84A7409558E65E07EDC20D6C4CAE163 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68620331BFE0FD5D1813A7F31B31A8B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5749FF8E1E3F139AA285486ADFF25BF8;
+			remoteInfo = "UITextView+Placeholder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		088C0E6AD59C6654FB5366BC345B0B0E /* UITextView+Placeholder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder-prefix.pch"; sourceTree = "<group>"; };
+		15716C428C257D0530D7EA1354B4A70D /* UITextView_Placeholder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UITextView_Placeholder.framework; path = "UITextView+Placeholder.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6C9A0A6642766E1964C1EBB33B90D0 /* Pods-DreamLister-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DreamLister-acknowledgements.plist"; sourceTree = "<group>"; };
+		4ADFC5B75A158486AD1D7C5556E3C4FB /* Pods-DreamLister-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DreamLister-acknowledgements.markdown"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A183FA0B54AB3432132ABF8D93E9464 /* Pods-DreamLister-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DreamLister-frameworks.sh"; sourceTree = "<group>"; };
+		736F1AF50915C78E025B847BEB1F11EC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		773CE578FF038B71487D0264BEE4FD08 /* UITextView+Placeholder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "UITextView+Placeholder.modulemap"; sourceTree = "<group>"; };
+		78B4BD86E564E688EB3BCDDBB1D39F2F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D1234D9FEA3A61A68CA80D15E525C0A /* UITextView+Placeholder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder-dummy.m"; sourceTree = "<group>"; };
+		7E40F38B106F150EFBEB5F80F319422B /* UITextView+Placeholder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder-umbrella.h"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8F0B86B67EEDE3B2885CF3EE6D38FE03 /* Pods-DreamLister.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DreamLister.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A003E3056525389FBCAAE2BA9130ADFD /* UITextView+Placeholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+Placeholder.m"; path = "Sources/UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		B555FE41653EDE9E80AC59DF16BE3E08 /* Pods-DreamLister-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DreamLister-dummy.m"; sourceTree = "<group>"; };
+		B74854EC1AF716B8FD9F5646094E09FD /* Pods-DreamLister-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DreamLister-umbrella.h"; sourceTree = "<group>"; };
+		D78817EDE5FAA7185FB7CDF3D068A34E /* Pods-DreamLister.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DreamLister.release.xcconfig"; sourceTree = "<group>"; };
+		DA040B32914E3A2F1397E7C785FCCCCB /* Pods-DreamLister-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DreamLister-resources.sh"; sourceTree = "<group>"; };
+		DE4BF63E74BB6737EECFCD0704F111C1 /* Pods_DreamLister.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DreamLister.framework; path = "Pods-DreamLister.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10C3ABCE0C119718E13FB727544BD64 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+Placeholder.h"; path = "Sources/UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		F11B00CA9479DD9A0A02C94FB4717DE6 /* Pods-DreamLister.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DreamLister.modulemap"; sourceTree = "<group>"; };
+		F9716E351B07063E52F6854F9D8B66A0 /* UITextView+Placeholder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UITextView+Placeholder.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02959F05835F4F960AFDF4F6F5955AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B899929E1B249C7BEB05A97B135B9EE0 /* Foundation.framework in Frameworks */,
+				E741D0E834F7AC8581F2AF459916DCB5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78A6D202E8CA74CBF36502410DD881B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84A7409558E65E07EDC20D6C4CAE163 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2879B0D567C33105E5C994D379C9F512 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				736F1AF50915C78E025B847BEB1F11EC /* Info.plist */,
+				773CE578FF038B71487D0264BEE4FD08 /* UITextView+Placeholder.modulemap */,
+				F9716E351B07063E52F6854F9D8B66A0 /* UITextView+Placeholder.xcconfig */,
+				7D1234D9FEA3A61A68CA80D15E525C0A /* UITextView+Placeholder-dummy.m */,
+				088C0E6AD59C6654FB5366BC345B0B0E /* UITextView+Placeholder-prefix.pch */,
+				7E40F38B106F150EFBEB5F80F319422B /* UITextView+Placeholder-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UITextView+Placeholder";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				A0C9983810570E3C02F76CA079A629BC /* Pods */,
+				996E2CCC1F3C22BE09A9F75A7F2B5B67 /* Products */,
+				C358C6A6E4DDB28A6AE1E4E833B732EC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		96557DC6C8C25BF5B55C530361C779A7 /* UITextView+Placeholder */ = {
+			isa = PBXGroup;
+			children = (
+				F10C3ABCE0C119718E13FB727544BD64 /* UITextView+Placeholder.h */,
+				A003E3056525389FBCAAE2BA9130ADFD /* UITextView+Placeholder.m */,
+				2879B0D567C33105E5C994D379C9F512 /* Support Files */,
+			);
+			name = "UITextView+Placeholder";
+			path = "UITextView+Placeholder";
+			sourceTree = "<group>";
+		};
+		996E2CCC1F3C22BE09A9F75A7F2B5B67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE4BF63E74BB6737EECFCD0704F111C1 /* Pods_DreamLister.framework */,
+				15716C428C257D0530D7EA1354B4A70D /* UITextView_Placeholder.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0C9983810570E3C02F76CA079A629BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96557DC6C8C25BF5B55C530361C779A7 /* UITextView+Placeholder */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C358C6A6E4DDB28A6AE1E4E833B732EC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3FE20C4675E57F131384EE37ADFF516 /* Pods-DreamLister */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E3FE20C4675E57F131384EE37ADFF516 /* Pods-DreamLister */ = {
+			isa = PBXGroup;
+			children = (
+				78B4BD86E564E688EB3BCDDBB1D39F2F /* Info.plist */,
+				F11B00CA9479DD9A0A02C94FB4717DE6 /* Pods-DreamLister.modulemap */,
+				4ADFC5B75A158486AD1D7C5556E3C4FB /* Pods-DreamLister-acknowledgements.markdown */,
+				3F6C9A0A6642766E1964C1EBB33B90D0 /* Pods-DreamLister-acknowledgements.plist */,
+				B555FE41653EDE9E80AC59DF16BE3E08 /* Pods-DreamLister-dummy.m */,
+				6A183FA0B54AB3432132ABF8D93E9464 /* Pods-DreamLister-frameworks.sh */,
+				DA040B32914E3A2F1397E7C785FCCCCB /* Pods-DreamLister-resources.sh */,
+				B74854EC1AF716B8FD9F5646094E09FD /* Pods-DreamLister-umbrella.h */,
+				8F0B86B67EEDE3B2885CF3EE6D38FE03 /* Pods-DreamLister.debug.xcconfig */,
+				D78817EDE5FAA7185FB7CDF3D068A34E /* Pods-DreamLister.release.xcconfig */,
+			);
+			name = "Pods-DreamLister";
+			path = "Target Support Files/Pods-DreamLister";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		901ADFA799CDF69B11A2E6E79095B645 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632801F710A57CB2DB809AC7CACC4B80 /* UITextView+Placeholder-umbrella.h in Headers */,
+				3F490825A92789007617C8F347611900 /* UITextView+Placeholder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBB1097E5ABFE2A4AEF14AFDE3B213A4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B210EE1EA53042AF6C23F2D5811F368A /* Pods-DreamLister-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5749FF8E1E3F139AA285486ADFF25BF8 /* UITextView+Placeholder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A16A1C288AF53D4724E912698413EE /* Build configuration list for PBXNativeTarget "UITextView+Placeholder" */;
+			buildPhases = (
+				1175F111F84DCBF466225AAD90E916AA /* Sources */,
+				02959F05835F4F960AFDF4F6F5955AC8 /* Frameworks */,
+				901ADFA799CDF69B11A2E6E79095B645 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UITextView+Placeholder";
+			productName = "UITextView+Placeholder";
+			productReference = 15716C428C257D0530D7EA1354B4A70D /* UITextView_Placeholder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B44AC0DA29C2D1C4D9496ABE2FFB1B4D /* Pods-DreamLister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E97E8319507DF5FBFCF072756AC2EB1 /* Build configuration list for PBXNativeTarget "Pods-DreamLister" */;
+			buildPhases = (
+				62D115B71472B82BACC6D10F3573880B /* Sources */,
+				78A6D202E8CA74CBF36502410DD881B7 /* Frameworks */,
+				EBB1097E5ABFE2A4AEF14AFDE3B213A4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B9BAE4E54C2E2846F3DF551FFB5BCE3 /* PBXTargetDependency */,
+			);
+			name = "Pods-DreamLister";
+			productName = "Pods-DreamLister";
+			productReference = DE4BF63E74BB6737EECFCD0704F111C1 /* Pods_DreamLister.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 996E2CCC1F3C22BE09A9F75A7F2B5B67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B44AC0DA29C2D1C4D9496ABE2FFB1B4D /* Pods-DreamLister */,
+				5749FF8E1E3F139AA285486ADFF25BF8 /* UITextView+Placeholder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1175F111F84DCBF466225AAD90E916AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C4E37F19FCB63521DD634DB499DAEF /* UITextView+Placeholder-dummy.m in Sources */,
+				468F0B4DF7ABB02C7A8D97F5275F6C95 /* UITextView+Placeholder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D115B71472B82BACC6D10F3573880B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2F5192E2C49C994168913389DA784E /* Pods-DreamLister-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B9BAE4E54C2E2846F3DF551FFB5BCE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UITextView+Placeholder";
+			target = 5749FF8E1E3F139AA285486ADFF25BF8 /* UITextView+Placeholder */;
+			targetProxy = 68620331BFE0FD5D1813A7F31B31A8B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12E1A8B026C5564AB0CC961E5B9C359D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4A69C2CF9F9DD76EDB31801EB35AB899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F0B86B67EEDE3B2885CF3EE6D38FE03 /* Pods-DreamLister.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DreamLister/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DreamLister/Pods-DreamLister.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DreamLister;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85A178FA69D5B08DCE8205B970843891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9716E351B07063E52F6854F9D8B66A0 /* UITextView+Placeholder.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UITextView+Placeholder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UITextView_Placeholder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE878C91C7AA653E3FE6787FED39411A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D78817EDE5FAA7185FB7CDF3D068A34E /* Pods-DreamLister.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DreamLister/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DreamLister/Pods-DreamLister.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DreamLister;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEF50420C7ACDFAFDEDCF817D3BE9390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9716E351B07063E52F6854F9D8B66A0 /* UITextView+Placeholder.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UITextView+Placeholder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UITextView+Placeholder/UITextView+Placeholder.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UITextView_Placeholder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3A9D7E6435570048A0980A67D7415ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12E1A8B026C5564AB0CC961E5B9C359D /* Debug */,
+				D3A9D7E6435570048A0980A67D7415ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E97E8319507DF5FBFCF072756AC2EB1 /* Build configuration list for PBXNativeTarget "Pods-DreamLister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A69C2CF9F9DD76EDB31801EB35AB899 /* Debug */,
+				BE878C91C7AA653E3FE6787FED39411A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0A16A1C288AF53D4724E912698413EE /* Build configuration list for PBXNativeTarget "UITextView+Placeholder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85A178FA69D5B08DCE8205B970843891 /* Debug */,
+				CEF50420C7ACDFAFDEDCF817D3BE9390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
